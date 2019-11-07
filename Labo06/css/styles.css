@@ -1,0 +1,106 @@
+/**
+*
+* Main styles for labo06
+*
+* @author Liam Verschuere
+*/
+
+body {
+	font-size: 14px;
+	font-family: Arial;
+}
+
+blockquote {
+	font-style: italic;
+}
+
+small {
+	display: block;
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+}
+
+ol {
+	list-style-type: lower-alpha;
+}
+
+figcaption {
+	font-style: italic;
+	text-align: right;
+}
+
+#langmenu {
+	font-size: 10px;
+}
+
+#profile-photo {
+	width: 200px;
+	padding: 10px;
+	border: 5px solid #ddd;
+	filter: grayscale(50%);
+}
+
+#mainmenu {
+	text-decoration: underline;
+}
+
+.comment {
+	background-color: #9595f3;
+	padding: 5px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:focus {
+	outline: 1px dotted #f09;
+}
+
+#profile-photo:hover {
+	filter: grayscale(0%);
+}
+
+p::selection {
+	background-color: #000000;
+}
+
+p {
+	color: #00d5f8;
+}
+
+.intro:first-letter {
+	color: black;
+	font-size: 25px;
+}
+
+.weetjes li:before {
+	content: "→"
+}
+
+.weetjes {
+	list-style: none;
+}
+
+/* Contextual selectors */
+
+main {
+	color: blue;
+}
+
+main:hover {
+	color: #00d5f8;
+}
+
+footer {
+	background-color: #00000087;
+}
+
+a > footer {
+	color: green; 
+}
