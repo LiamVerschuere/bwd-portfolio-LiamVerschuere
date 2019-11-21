@@ -5,6 +5,7 @@
 * @author Liam Verschuere
 */
 
+/* tag selectors */
 body {
 	font-size: 14px;
 	font-family: Arial;
@@ -32,6 +33,7 @@ figcaption {
 	text-align: right;
 }
 
+/* id selectors */
 #langmenu {
 	font-size: 10px;
 }
@@ -47,31 +49,16 @@ figcaption {
 	text-decoration: underline;
 }
 
+#profile-photo:hover {
+	filter: grayscale(0%);
+}
+
+/* class selectors */
 .comment {
 	background-color: #9595f3;
 	padding: 5px;
 	margin-top: 10px;
 	margin-bottom: 10px;
-}
-
-a:hover {
-	text-decoration: underline;
-}
-
-a:focus {
-	outline: 1px dotted #f09;
-}
-
-#profile-photo:hover {
-	filter: grayscale(0%);
-}
-
-p::selection {
-	background-color: #000000;
-}
-
-p {
-	color: #00d5f8;
 }
 
 .intro:first-letter {
@@ -86,6 +73,25 @@ p {
 .weetjes {
 	list-style: none;
 }
+
+/* psuedo-class selector */
+a:hover {
+	text-decoration: underline;
+}
+
+a:focus {
+	outline: 1px dotted #f09;
+}
+
+
+p::selection {
+	background-color: #000000;
+}
+
+p {
+	color: #00d5f8;
+}
+
 
 /* Contextual selectors */
 

@@ -1,0 +1,33 @@
+/**
+ * Index stylesheet for Mutw
+ *
+ * @author      Rogier van der Linde <rogier.vanderlinde@kahosl.be>
+ *
+ */
+
+/* =============================================
+ * LAYOUT
+ =============================================== */
+
+main .wrapper {
+	display: flex;
+	flex-flow: row nowrap;	
+}
+
+main .column {
+	width: 30%;
+}
+
+main .column + .column {
+	margin-left: 5%;
+}
+
+/* =============================================
+ * BANNER
+ =============================================== */
+
+
+/* =============================================
+ * MAIN
+ =============================================== */
+
