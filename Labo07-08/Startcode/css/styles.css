@@ -24,6 +24,7 @@ h2 {
 h3 {
 	font-weight: normal;
 	font-family: Exo;
+	color: #3d5aac;
 }
 
 /* =============================================
@@ -61,14 +62,38 @@ h1 a {
   width: 21.4rem;
 }
 
+header {
+	background-color: #485865;
+}
+
+header a{
+	color: white;
+}
+
 /* =============================================
  * DOORMAT
  =============================================== */
 #doormat {
-	background-color: 
+	background-color: #62717d;
 }
+
+#doormat a{
+	color: white;
+}
+
+#doormat a:hover{
+	text-decoration: none;
+}
+
+#doormat ul{
+	margin: 0 auto;
+}
+
 
 /* =============================================
  * FOOTER
  =============================================== */
 
+footer{
+	letter-spacing: 2px;
+}
