@@ -74,7 +74,7 @@ main > div > section:last-child {
 
 a.facebook {
 
-    background: url("/images/icon_facebook.png");
+    background: url("/img/icon_facebook.png");
     background-size: 100% 100%;
     display: block;
     overflow: hidden;
@@ -85,7 +85,7 @@ a.facebook {
 
 a.twitter {
 
-    background: url("/images/icon_twitter.png");
+    background: url("../img/icon_twitter.png");
     background-size: 100% 100%;
     display: block;
     overflow: hidden;
@@ -96,7 +96,7 @@ a.twitter {
 
 a.pinterest {
 
-    background: url("/images/icon_pinterest.png");
+    background: url("../img/icon_pinterest.png");
     background-size: 100% 100%;
     display: block;
     overflow: hidden;
