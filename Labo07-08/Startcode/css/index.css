@@ -46,3 +46,61 @@ h3{
 	text-underline-position: under;
 	text-decoration-color: orange;
 }
+
+img{
+    max-width:100px;
+}
+
+.lnk_more{
+    border-radius: 10%;
+    float: right;
+
+}
+
+a.lnk_more::after{
+
+    content: "»";
+}
+
+a.lnk_more:hover{
+    color: white;
+    background-color: orange;
+    transition: background 0.2s, color 0.2s ease-in-out;
+}
+
+main > div > section:last-child {
+    text-align: center;
+}
+
+a.facebook {
+
+    background: url("/images/icon_facebook.png");
+    background-size: 100% 100%;
+    display: block;
+    overflow: hidden;
+    text-indent: 100%;
+    height: 4rem;
+    width: 4rem
+}
+
+a.twitter {
+
+    background: url("/images/icon_twitter.png");
+    background-size: 100% 100%;
+    display: block;
+    overflow: hidden;
+    text-indent: 100%;
+    height: 4rem;
+    width: 4rem
+}
+
+a.pinterest {
+
+    background: url("/images/icon_pinterest.png");
+    background-size: 100% 100%;
+    display: block;
+    overflow: hidden;
+    text-indent: 100%;
+    height: 4rem;
+    width: 4rem
+}
