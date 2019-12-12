@@ -26,30 +26,27 @@ main .column + .column {
  * BANNER
  =============================================== */
 
- #banner{
- 	background-color: #62717d;
- 	text-align: center;
- 	color: white;
- 	padding-top: 10rem;
- 	padding-bottom: 1rem;
+ #banner .wrapper {
+     background-color: #62717d;
+     padding-top: 18rem;
+     padding-bottom: 3rem;
+     background-image: url(../img/mutwhero.png);
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: 32%;
  }
+
+
+#banner h2 {
+    text-align: center;
+    font-weight: 200;
+    font-size: 2.4rem;
+    text-transform: uppercase;
+    color: #eee;
 
 /* =============================================
  * MAIN
  =============================================== */
-
-h3{
-	font-size: 3rem;
-	padding-top: 4rem;
-	padding-bottom: 1rem;
-	text-decoration: underline;
-	text-underline-position: under;
-	text-decoration-color: orange;
-}
-
-img{
-    max-width:100px;
-}
 
 .lnk_more{
     border-radius: 10%;
