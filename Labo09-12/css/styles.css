@@ -14,7 +14,86 @@ h1 a {
 
 /* HEADER */
 
-.topbar {
+#topbar {
+	background-color: #e5e3e3;
+}
+
+#topbar .wrapper {
 	display: flex;
 	flex-flow: row nowrap;
+	justify-content: space-between;
+}
+
+#topbar ul {
+	list-style: none;
+	font-size: 1.3rem;
+	letter-spacing: 1.5rem;
+	display: flex;
+	flex-flow: row nowrap;
+	padding-left: 15rem;
+}
+
+#topbar form {
+	padding-right: 15rem;
+}
+
+h1 a {
+	text-decoration: none;
+	font-size: 4rem;
+	padding-left: 15rem;
+	color: #000;
+}
+
+.wrapper ul {
+	list-style: none;
+	display: flex;
+	flex-flow: row nowrap;
+	padding-right: 15rem;
+	font-size: 1.5rem;
+	font-weight: bold;
+}
+
+.wrapper li {
+	padding-left: 1rem;
+}
+
+.wrapper li a {
+	text-decoration: none;
+	color: #000;
+}
+
+header .wrapper {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+}
+
+header .wrapper ul {
+	padding-top: 4rem;
+}
+
+/* Banner */
+
+#banner {
+	background-image: url(../img/seoul_skyline.jpg);
+}
+
+#banner .wrapper a{
+	text-decoration: none;
+	list-style: none;
+	color: #FFF;
+}
+
+#banner .wrapper {
+	color: #FFF;
+}
+
+#banner .wrapper p {
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+}
+
+#banner .wrapper h2 {
+	padding-bottom: 2rem;
+	font-size: 3.5rem;
 }
