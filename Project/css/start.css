@@ -1,0 +1,7 @@
+html { 
+	font-family: Crimson Text;
+  	font-size: 62.5%; /* set HTML font size to 62.5%; now 1rem = 10px */
+} 
+body { 
+  font-size: 1.4rem; /* set default font size, e.g. to 14px */ 
+}

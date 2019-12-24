@@ -12,6 +12,11 @@ h1 a {
 	font-family: Dancing Script;
 }
 
+.wrapper {
+	max-width: 100rem;
+	margin: 0 auto;
+}
+
 /* HEADER */
 
 #topbar {
@@ -30,25 +35,19 @@ h1 a {
 	letter-spacing: 1.5rem;
 	display: flex;
 	flex-flow: row nowrap;
-	padding-left: 15rem;
-}
-
-#topbar form {
-	padding-right: 15rem;
 }
 
 h1 a {
 	text-decoration: none;
-	font-size: 4rem;
-	padding-left: 15rem;
+	font-size: 4rem;  
 	color: #000;
+
 }
 
 .wrapper ul {
 	list-style: none;
 	display: flex;
 	flex-flow: row nowrap;
-	padding-right: 15rem;
 	font-size: 1.5rem;
 	font-weight: bold;
 }
@@ -66,6 +65,8 @@ header .wrapper {
 	display: flex;
 	flex-flow: row nowrap;
 	justify-content: space-between;
+	padding-bottom: 4rem;
+	padding-top: 2rem;
 }
 
 header .wrapper ul {
@@ -76,7 +77,10 @@ header .wrapper ul {
 
 #banner {
 	background-image: url(../img/seoul_skyline.jpg);
-}
+	background-position: center;
+	background-repeat: no-repeat;
+	padding-bottom: 20rem;
+}	
 
 #banner .wrapper a{
 	text-decoration: none;
@@ -86,14 +90,41 @@ header .wrapper ul {
 
 #banner .wrapper {
 	color: #FFF;
+	padding-left: 3rem;
 }
 
 #banner .wrapper p {
-	padding-top: 2rem;
-	padding-bottom: 2rem;
+	padding-bottom: 5rem;
+	font-size: 1rem;
 }
 
 #banner .wrapper h2 {
-	padding-bottom: 2rem;
+	padding-bottom: 4rem;
 	font-size: 3.5rem;
+}
+
+#banner .wrapper a {
+	font-size: 1.5rem;
+	text-transform: uppercase;
+	border: solid;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	padding-left: 2.5rem;
+	padding-right: 2.5rem;
+}
+
+/* main left */
+
+.wrapper .main_left {
+	font-size: 2rem;
+}
+
+.wrapper .main_left h3 {
+	border-bottom: solid;
+	border-bottom-color: orange;
+}
+
+.wrapper .main_left article {
+	background-color: lightgrey;
+	margin-bottom: 4rem;
 }
