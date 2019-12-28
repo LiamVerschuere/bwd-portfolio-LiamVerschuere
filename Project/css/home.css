@@ -1,0 +1,41 @@
+/**
+* home styles
+*
+* @author Liam Verschuere
+*/
+
+/* =================================================
+	TOPBAR
+=================================================== */
+#Topbar {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+}
+
+
+h1 a {
+  background-image: url(../images/Ganked_Home.png); /* set background image */
+  background-size: 100% 100%; /* stretch background image */
+  display: block; /* only block level elements can have width / height */
+  height: 10.5rem; /* stretch link to desired height */
+  overflow: hidden;  /* hide text outside */
+  text-indent: 100%; /* push text outside */
+  white-space: nowrap; /* single line of text */
+  width: 21.4rem; /* stretch link to desired width */
+}
+
+.navigatie nav ul {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+}
+
+nav ul li {
+	list-style: none;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: black;
+}
