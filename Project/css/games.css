@@ -1,10 +1,3 @@
-/**
-* home styles
-*
-* @author Liam Verschuere
-*/
-
-
 html {
 	background-color: #8a8585;
 }
@@ -82,62 +75,14 @@ nav ul li a {
 	flex-flow: row nowrap
 }
 
-/** =====================================================
-	HOME PAGINA AFBEELDINGEN
-========================================================= **/
-
-.example_images img {
-	max-width: 70rem;
-	padding-bottom: 5rem;
-}
-
-.example_images li {
-	list-style: none;
-	text-decoration: none;
-}
-
-.example_images ul {
-	display: flex;
-	flex-flow: row wrap;
-	justify-content: space-between;
-}
-
-/** =====================================================
-	PARAGRAAF APART
-======================================================== **/
-p {
-	color: #89fffa;
-}
-
-/** ====================================================
-	MAIN
-========================================================**/
-
-main {
-	color: #89fffa;
-}
-
-#Explanation {
-	display: flex;
-	flex-flow: row nowrap;
-}
-
-#Explanation .goede_doel {
-	padding-top: 4.7rem;
-}
-
-
-/** =============================================================
-	FORM
-=============================================================== **/
-
-form {
-	color: #89fffa;
-}
 
 /** ===========================================================
 	FOOTER
 ============================================================== **/
+
+footer {
+	color: #89fffa; 
+}
 
 footer ul {
 	list-style: none;
