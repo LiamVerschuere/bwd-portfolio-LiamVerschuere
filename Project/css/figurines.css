@@ -84,16 +84,16 @@ main img {
 	max-width: 40rem;
 }
 
-main #games {
+main #figurines {
 	display: grid;
 	grid-template-columns: auto auto auto;
 }
 
-main #games .banner h2 {
+main #figurines .banner h2 {
 	color: #FFF;
 }
 
-main #games .banner p {
+main #figurines .banner p {
 	color: #89fffa;
 }
 
