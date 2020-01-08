@@ -50,9 +50,9 @@ nav ul li a {
 .navigatie nav ul li:hover {
 	border: 0.1rem solid;
 	padding-top: 1rem;
-	padding-right: 4rem;
+	padding-right: 2rem;
 	padding-bottom: 1rem;
-	padding-left: 4rem;
+	padding-left: 2rem;
 	transition: 1.5s;
 	background-color: #000000;
 }
@@ -168,6 +168,16 @@ footer ul li a:hover {
 @media (min-width: 700px) {
 	.example_images img {
 	max-width: 30rem;
+	}
+
+	.navigatie nav ul li:hover {
+	border: 0.1rem solid;
+	padding-top: 1rem;
+	padding-right: 4rem;
+	padding-bottom: 1rem;
+	padding-left: 4rem;
+	transition: 1.5s;
+	background-color: #000000;
 	}
 }
 

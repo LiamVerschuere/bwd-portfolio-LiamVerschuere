@@ -49,9 +49,9 @@ nav ul li a {
 .navigatie nav ul li:hover {
 	border: 0.1rem solid;
 	padding-top: 1rem;
-	padding-right: 4rem;
+	padding-right: 2rem;
 	padding-bottom: 1rem;
-	padding-left: 4rem;
+	padding-left: 2rem;
 	transition: 1.5s;
 	background-color: #000000;
 }
@@ -90,12 +90,12 @@ nav ul li a {
 =============================================================== **/
 
 main img {
-	max-width: 40rem;
+	max-width: 20rem;
 }
 
 main #figurines {
 	display: grid;
-	grid-template-columns: auto auto auto;
+	grid-template-columns: auto auto;
 }
 
 main #figurines .banner h2 {
@@ -129,4 +129,45 @@ footer ul li a{
 
 footer ul li a:hover {
 	text-decoration: none;
+}
+
+/** ===========================================================
+	RESPONSIVE
+============================================================== **/
+
+@media (min-width: 700px) {
+	.navigatie nav ul li:hover {
+	border: 0.1rem solid;
+	padding-top: 1rem;
+	padding-right: 4rem;
+	padding-bottom: 1rem;
+	padding-left: 4rem;
+	transition: 1.5s;
+	background-color: #000000;
+	}
+}
+
+@media (min-width: 700px) {
+	main img {
+	max-width: 30rem;
+	}
+
+
+@media (min-width: 800px) {
+	main img {
+	max-width: 35rem;
+	}
+
+
+@media (min-width: 900px) {
+	main img {
+	max-width: 40rem;
+	}
+}
+
+@media (min-width: 1300px) {
+	main #figurines {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	}
 }
