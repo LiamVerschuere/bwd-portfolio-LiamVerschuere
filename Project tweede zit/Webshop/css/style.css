@@ -103,7 +103,7 @@ section .showcasePhones{
 .Tablets h4{
     display: flex;
     justify-content: center;
-    margin-right: 50rem;
+    margin-right: 47rem;
     padding-right: 10rem;
     font-size: 4rem;
     border-bottom: solid #000000;
@@ -118,4 +118,34 @@ section .showcaseTablets{
 .showcaseTablets img{
     max-width: 20rem;
     max-height: 15rem;
+    margin-right: 5rem;
+}
+
+.showcaseTablets .SamsungTablet p{
+    font-weight: bold;
+    margin-right: 1rem;
+}
+
+.showcaseTablets .Ipad p{
+    font-weight: bold;
+    margin-left: 1.5rem;
+}
+
+.showcaseTablets .HuaweiTablet p{
+    font-weight: bold;
+    margin-left: 1rem;
+}
+
+.showcaseTablets .Ipad2 p{
+    font-weight: bold;
+    margin-left: 1.5rem;
+}
+
+.mobileAccessories h4{
+    display: flex;
+    justify-content: center;
+    margin-right: 46rem;
+    padding-right: 10rem;
+    font-size: 4rem;
+    border-bottom: solid #000000;
 }
