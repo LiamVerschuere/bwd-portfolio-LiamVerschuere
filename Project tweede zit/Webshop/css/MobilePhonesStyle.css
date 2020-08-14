@@ -1,0 +1,60 @@
+html{
+    background-color: #d3d3d3;
+}
+
+/* ==========
+   Navigation
+   ========== */
+   header .wrapper{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+
+h1{
+    margin-right: 12rem;
+}
+
+nav ul{
+    display: flex;
+    flex-flow: row nowrap;
+    list-style: none;
+    font-size: 2rem;
+}
+
+nav li{
+    margin-left: 1.5rem;
+}
+
+nav a:hover{
+    color:#0099ff;
+    transition: 0.5s;
+}
+
+nav a{
+   text-decoration: none;
+   color: #000000;
+}
+
+/* ==========
+   Products
+   ========== */
+
+.webshop h4{
+display: flex;
+justify-content: center;
+margin-right: 64rem;
+font-size: 4rem;
+border-bottom: solid #000000;
+}
+
+.phones{
+    display: flex;
+    justify-content: center;
+    grid-template-columns: auto auto auto;
+}
+
+.phones img{
+    max-width: 10rem;
+    max-height: 10rem;
+}
