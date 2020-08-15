@@ -35,3 +35,27 @@ nav a{
    text-decoration: none;
    color: #000000;
 }
+
+/* ==========
+   About content
+   ========== */
+
+.AboutUsContent h4{
+    display: flex;
+    justify-content: center;
+    margin-right: 50rem;
+    font-size: 4rem;
+    border-bottom: solid #000000;
+}
+
+main p{
+    font-size: 1.75rem;
+}
+
+main img{
+    float: left;
+    max-width: 40rem;
+    max-height: 40rem;
+    margin-right: 3rem;
+    margin-bottom: 2rem;
+}
