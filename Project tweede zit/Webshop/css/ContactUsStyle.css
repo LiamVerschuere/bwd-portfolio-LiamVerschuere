@@ -1,0 +1,158 @@
+html{
+    background-color: #d3d3d3;
+}
+
+/* ==========
+   Navigation
+   ========== */
+   header .wrapper{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+
+h1{
+    margin-right: 12rem;
+}
+
+nav ul{
+    display: flex;
+    flex-flow: row nowrap;
+    list-style: none;
+    font-size: 2rem;
+}
+
+nav li{
+    margin-left: 1.5rem;
+}
+
+nav a:hover{
+    color:#0099ff;
+    transition: 0.5s;
+}
+
+nav a{
+   text-decoration: none;
+   color: #000000;
+}
+
+/* ==========
+   Form
+   ========== */
+
+.ContactTitle h1{
+    display: flex;
+    justify-content: center;
+    margin-right: 50rem;
+    font-size: 4rem;
+    border-bottom: solid #000000;
+}
+
+.questionForm{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+
+.questionForm form{
+    display: inline-block;
+    padding-left: 5rem;
+}
+
+.questionForm form label{
+    visibility: hidden;
+}
+
+.questionLabel input{
+    border-top-style: hidden;
+    border-left-style: hidden;
+    border-right-style: hidden;
+    background-color: #d3d3d3;
+}
+
+.questionLabel input:hover{
+    border-top-style: hidden;
+    border-left-style: hidden;
+    border-right-style: hidden;
+    border-bottom-width: 0.25rem;
+    background-color: #d3d3d3;
+}
+
+.questionLabel{
+    display: inline-block;
+}
+
+textarea{
+    display: flex;
+    justify-content: left;
+    margin-left: 3.5rem;
+    border-top-style: hidden;
+    border-left-style: hidden;
+    border-right-style: hidden;
+    background-color: #d3d3d3;
+}
+
+textarea:hover{
+    display: flex;
+    justify-content: left;
+    margin-left: 3.5rem;
+    border-top-style: hidden;
+    border-left-style: hidden;
+    border-right-style: hidden;
+    border-bottom-width: 0.25rem;
+    background-color: #d3d3d3;
+}
+
+.questionForm h4{
+    font-size: 2.5rem;
+    margin-right: 2rem;
+}
+
+.submitButton{
+    border-top-style: hidden;
+    border-left-style: hidden;
+    border-right-style: hidden;
+    border-bottom-style: hidden;
+    background-color: #d3d3d3;
+    display: flex;
+    margin-left: 17rem;
+    font-size: 2.5rem;
+}
+
+.submitButton:hover{
+    border-top-style: hidden;
+    border-left-style: hidden;
+    border-right-style: hidden;
+    border-bottom-style: hidden;
+    background-color: #d3d3d3;
+    display: flex;
+    margin-left: 17rem;
+    font-size: 2.5rem;
+    color: #0099ff;
+    transition: 0.5s;
+}
+
+.infoAboutStore{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+
+.infoAboutStore p, h4{
+    margin-right: 5rem;
+    margin-left: 5rem;
+}
+
+.infoAboutStore h4{
+    font-size: 2.5rem;
+    padding-left: 1rem;
+}
+
+.infoAboutStore p{
+    font-size: 1.75rem;
+}
+
+#GoogleMaps{
+    width: 70rem;
+    height: 40rem;
+}
