@@ -73,7 +73,6 @@ banner{
 section .showcasePhones{
     display: flex;
     justify-content: center;
-    grid-template-columns: auto auto auto auto;
 }
 
 .showcasePhones img{

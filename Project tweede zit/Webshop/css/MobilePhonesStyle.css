@@ -49,12 +49,68 @@ border-bottom: solid #000000;
 }
 
 .phones{
-    display: flex;
-    justify-content: center;
-    grid-template-columns: auto auto auto;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
 }
 
 .phones img{
-    max-width: 10rem;
-    max-height: 10rem;
+    max-width: 25rem;
+    max-height: 20rem;
+    margin-right: 10rem;
+}
+
+.SamsungPhone1 p{
+    font-weight: bold;
+    margin-top: 3rem;
+    margin-left: 8rem;
+}
+
+.IphonePhone1 p{
+    font-weight: bold;
+    margin-left: 6rem;
+}
+
+.OnePlusPhone1 p{
+    font-weight: bold;
+}
+
+.HuaweiPhone1 p{
+    font-weight: bold;
+}
+
+.OnePlusPhone2 img{
+    margin-top: 10rem;
+    margin-left: 2rem;
+}
+
+.OnePlusPhone2 p{
+    font-weight: bold;
+    margin-left: 4rem;
+}
+
+.SamsungPhone2 img{
+    margin-top: 10rem;
+}
+
+.SamsungPhone2 p{
+    font-weight: bold;
+    margin-left: 5rem;
+}
+
+.HuaweiPhone2 img{
+    margin-top: 10rem;
+}
+
+.HuaweiPhone2 p{
+    font-weight: bold;
+    margin-left: 3rem;
+}
+
+.OnePlusPhone3 img{
+    margin-top: 10rem;
+}
+
+.OnePlusPhone3 p{
+    font-weight: bold;
+    margin-left: 3rem;
 }
